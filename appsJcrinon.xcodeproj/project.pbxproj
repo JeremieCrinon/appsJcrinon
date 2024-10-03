@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		FDA74DDC2CAEA200006E2E78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDA74DC32CAEA1FE006E2E78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDA74DCA2CAEA1FE006E2E78;
+			remoteInfo = appsJcrinon;
+		};
+		FDA74DE62CAEA200006E2E78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDA74DC32CAEA1FE006E2E78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDA74DCA2CAEA1FE006E2E78;
+			remoteInfo = appsJcrinon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDA74DCB2CAEA1FE006E2E78 /* appsJcrinon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appsJcrinon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA74DDB2CAEA200006E2E78 /* appsJcrinonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appsJcrinonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA74DE52CAEA200006E2E78 /* appsJcrinonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appsJcrinonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FDA74DCD2CAEA1FE006E2E78 /* appsJcrinon */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = appsJcrinon;
+			sourceTree = "<group>";
+		};
+		FDA74DDE2CAEA200006E2E78 /* appsJcrinonTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = appsJcrinonTests;
+			sourceTree = "<group>";
+		};
+		FDA74DE82CAEA200006E2E78 /* appsJcrinonUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = appsJcrinonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDA74DC82CAEA1FE006E2E78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA74DD82CAEA200006E2E78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA74DE22CAEA200006E2E78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDA74DC22CAEA1FE006E2E78 = {
+			isa = PBXGroup;
+			children = (
+				FDA74DCD2CAEA1FE006E2E78 /* appsJcrinon */,
+				FDA74DDE2CAEA200006E2E78 /* appsJcrinonTests */,
+				FDA74DE82CAEA200006E2E78 /* appsJcrinonUITests */,
+				FDA74DCC2CAEA1FE006E2E78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDA74DCC2CAEA1FE006E2E78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDA74DCB2CAEA1FE006E2E78 /* appsJcrinon.app */,
+				FDA74DDB2CAEA200006E2E78 /* appsJcrinonTests.xctest */,
+				FDA74DE52CAEA200006E2E78 /* appsJcrinonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDA74DCA2CAEA1FE006E2E78 /* appsJcrinon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA74DEF2CAEA200006E2E78 /* Build configuration list for PBXNativeTarget "appsJcrinon" */;
+			buildPhases = (
+				FDA74DC72CAEA1FE006E2E78 /* Sources */,
+				FDA74DC82CAEA1FE006E2E78 /* Frameworks */,
+				FDA74DC92CAEA1FE006E2E78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FDA74DCD2CAEA1FE006E2E78 /* appsJcrinon */,
+			);
+			name = appsJcrinon;
+			packageProductDependencies = (
+			);
+			productName = appsJcrinon;
+			productReference = FDA74DCB2CAEA1FE006E2E78 /* appsJcrinon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDA74DDA2CAEA200006E2E78 /* appsJcrinonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA74DF22CAEA200006E2E78 /* Build configuration list for PBXNativeTarget "appsJcrinonTests" */;
+			buildPhases = (
+				FDA74DD72CAEA200006E2E78 /* Sources */,
+				FDA74DD82CAEA200006E2E78 /* Frameworks */,
+				FDA74DD92CAEA200006E2E78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDA74DDD2CAEA200006E2E78 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FDA74DDE2CAEA200006E2E78 /* appsJcrinonTests */,
+			);
+			name = appsJcrinonTests;
+			packageProductDependencies = (
+			);
+			productName = appsJcrinonTests;
+			productReference = FDA74DDB2CAEA200006E2E78 /* appsJcrinonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDA74DE42CAEA200006E2E78 /* appsJcrinonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA74DF52CAEA200006E2E78 /* Build configuration list for PBXNativeTarget "appsJcrinonUITests" */;
+			buildPhases = (
+				FDA74DE12CAEA200006E2E78 /* Sources */,
+				FDA74DE22CAEA200006E2E78 /* Frameworks */,
+				FDA74DE32CAEA200006E2E78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDA74DE72CAEA200006E2E78 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FDA74DE82CAEA200006E2E78 /* appsJcrinonUITests */,
+			);
+			name = appsJcrinonUITests;
+			packageProductDependencies = (
+			);
+			productName = appsJcrinonUITests;
+			productReference = FDA74DE52CAEA200006E2E78 /* appsJcrinonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDA74DC32CAEA1FE006E2E78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					FDA74DCA2CAEA1FE006E2E78 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					FDA74DDA2CAEA200006E2E78 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = FDA74DCA2CAEA1FE006E2E78;
+					};
+					FDA74DE42CAEA200006E2E78 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = FDA74DCA2CAEA1FE006E2E78;
+					};
+				};
+			};
+			buildConfigurationList = FDA74DC62CAEA1FE006E2E78 /* Build configuration list for PBXProject "appsJcrinon" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDA74DC22CAEA1FE006E2E78;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FDA74DCC2CAEA1FE006E2E78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDA74DCA2CAEA1FE006E2E78 /* appsJcrinon */,
+				FDA74DDA2CAEA200006E2E78 /* appsJcrinonTests */,
+				FDA74DE42CAEA200006E2E78 /* appsJcrinonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDA74DC92CAEA1FE006E2E78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA74DD92CAEA200006E2E78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA74DE32CAEA200006E2E78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDA74DC72CAEA1FE006E2E78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA74DD72CAEA200006E2E78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA74DE12CAEA200006E2E78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDA74DDD2CAEA200006E2E78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDA74DCA2CAEA1FE006E2E78 /* appsJcrinon */;
+			targetProxy = FDA74DDC2CAEA200006E2E78 /* PBXContainerItemProxy */;
+		};
+		FDA74DE72CAEA200006E2E78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDA74DCA2CAEA1FE006E2E78 /* appsJcrinon */;
+			targetProxy = FDA74DE62CAEA200006E2E78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FDA74DED2CAEA200006E2E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDA74DEE2CAEA200006E2E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDA74DF02CAEA200006E2E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"appsJcrinon/Preview Content\"";
+				DEVELOPMENT_TEAM = 3AQ7893VP7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcrinon.appsJcrinon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDA74DF12CAEA200006E2E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"appsJcrinon/Preview Content\"";
+				DEVELOPMENT_TEAM = 3AQ7893VP7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcrinon.appsJcrinon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDA74DF32CAEA200006E2E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3AQ7893VP7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcrinon.appsJcrinonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appsJcrinon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/appsJcrinon";
+			};
+			name = Debug;
+		};
+		FDA74DF42CAEA200006E2E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3AQ7893VP7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcrinon.appsJcrinonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appsJcrinon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/appsJcrinon";
+			};
+			name = Release;
+		};
+		FDA74DF62CAEA200006E2E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3AQ7893VP7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcrinon.appsJcrinonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = appsJcrinon;
+			};
+			name = Debug;
+		};
+		FDA74DF72CAEA200006E2E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3AQ7893VP7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcrinon.appsJcrinonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = appsJcrinon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDA74DC62CAEA1FE006E2E78 /* Build configuration list for PBXProject "appsJcrinon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA74DED2CAEA200006E2E78 /* Debug */,
+				FDA74DEE2CAEA200006E2E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDA74DEF2CAEA200006E2E78 /* Build configuration list for PBXNativeTarget "appsJcrinon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA74DF02CAEA200006E2E78 /* Debug */,
+				FDA74DF12CAEA200006E2E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDA74DF22CAEA200006E2E78 /* Build configuration list for PBXNativeTarget "appsJcrinonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA74DF32CAEA200006E2E78 /* Debug */,
+				FDA74DF42CAEA200006E2E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDA74DF52CAEA200006E2E78 /* Build configuration list for PBXNativeTarget "appsJcrinonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA74DF62CAEA200006E2E78 /* Debug */,
+				FDA74DF72CAEA200006E2E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDA74DC32CAEA1FE006E2E78 /* Project object */;
+}
