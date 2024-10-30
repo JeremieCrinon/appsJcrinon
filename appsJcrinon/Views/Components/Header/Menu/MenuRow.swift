@@ -19,7 +19,6 @@ struct MenuRow: View {
             
             Spacer()
         }
-        
     }
 }
 

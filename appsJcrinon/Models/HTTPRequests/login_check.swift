@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+struct Login_checkResponse: Decodable {
+    let token: String?
+}
+
+struct Login_checkRequest: Encodable {
+    let email: String
+    let password: String
+}

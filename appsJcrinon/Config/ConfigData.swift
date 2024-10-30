@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct Config: Codable {
+    let apiBaseUrl: String
+}
+
+
