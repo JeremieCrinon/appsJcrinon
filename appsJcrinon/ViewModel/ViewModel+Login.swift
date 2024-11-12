@@ -54,6 +54,11 @@ extension ViewModel {
             return
         }
         
+        // Now that we are connected, we get any data we will need later
+        await self.getProjects()
+        
+        // /Now that we are connected, we get any data we will need later
+        
         DispatchQueue.main.async {
             self.isConnected = true
             self.isLoading = false

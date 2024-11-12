@@ -3,24 +3,18 @@
         "id": 1,
         "title": "Dashboard",
         "symbolName": "gauge.with.dots.needle.33percent",
-        "viewName": "Test"
+        "viewName": "Home"
     },
     {
         "id": 2,
         "title": "Projects",
         "symbolName": "gear",
-        "viewName": "Test2"
+        "viewName": "Projects"
     },
     {
         "id": 3,
         "title": "Users",
-        "symbolName": "reghiu",
-        "viewName": "Test"
-    },
-    {
-        "id": 4,
-        "title": "VVVV",
-        "symbolName": "folder",
-        "viewName": "Test"
+        "symbolName": "person",
+        "viewName": "Users"
     }
 ]

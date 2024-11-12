@@ -22,12 +22,12 @@ struct Page: Codable, Identifiable {
     // A computed property to return the appropriate view based on the viewName
     var view: AnyView {
         switch viewName {
-        case "Test":
-            return AnyView(Test())
-        case "Test2":
-            return AnyView(Test2())
+        case "Home":
+            return AnyView(Home())
+        case "Projects":
+            return AnyView(Projects())
         default:
-            return AnyView(Text("View not found")) // Default case for error handling
+            return AnyView(ErrorPage()) // Default case for error handling
         }
     }
 }

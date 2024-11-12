@@ -17,13 +17,13 @@ class ViewModel: ObservableObject {
     
     @Published var userRoles: Array<String>? = nil
     
+    @Published var projects: Array<Project>? = nil
     
     let keychain = KeychainSwift()
     
     init() {
         Task {
             await verifyConnexion()
-            print("\(config.apiBaseUrl)/api/isuser")
         }
     }
     

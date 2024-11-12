@@ -18,9 +18,8 @@ struct MenuButton: View {
         }) {
             Image(systemName: "line.3.horizontal.circle")
                 .resizable()
-                .frame(width: 30, height: 30)
+                .frame(width: 25, height: 25)
                 .padding(20)
-                .foregroundStyle(Color("MainColor"))
         }
     }
 }

@@ -17,21 +17,13 @@ struct Header: View {
             HStack {
                 MenuButton(isMenuOpen: $isMenuOpen)
                 Spacer()
-                Button(action: {
-                    viewModel.disconnect()
-                }) {
-                    Image(systemName: "rectangle.portrait.and.arrow.right")
-                        .resizable()
-                        .frame(width: 30, height: 30)
-                        .padding(20)
-                        .foregroundStyle(Color("MainColor"))
-                }
+                DisconnectButton()
             }
             
             HStack(alignment: .center){
-                Text("Jcrinon.com") // élément qui doit être centré
+                Text("Jcrinon.com")
                     .frame(alignment: .center)
-                    .font(.title)
+                    .font(.title2)
                     .bold()
             }
             
