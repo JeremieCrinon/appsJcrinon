@@ -27,7 +27,7 @@ extension ViewModel {
         
         
         if let response: IsUser = await APIWithoutBodyWithJWT(url: url, token: token, viewModel: self) {
-            DispatchQueue.main.async {
+            await MainActor.run {
                 if(response.result == nil) {
                     self.isConnected = false
                     self.disconnect() // So we don't make the verification every time
@@ -55,7 +55,12 @@ extension ViewModel {
         }
         
         // Now that we are connected, we get any data we will need later
-        await self.getProjects()
+        if self.getUserRoles().contains("ROLE_PROJECTS") || self.getUserRoles().contains("ROLE_ADMIN") {
+            await self.getProjects()
+        }
+        
+        
+        
         
         // /Now that we are connected, we get any data we will need later
         
@@ -114,5 +119,9 @@ extension ViewModel {
         DispatchQueue.main.async {
             self.isConnected = false
         }
+    }
+    
+    func getUserRoles()->Array<String>{
+        return self.userRoles!
     }
 }

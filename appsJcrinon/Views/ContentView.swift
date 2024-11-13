@@ -10,8 +10,8 @@ import SwiftUI
 struct ContentView: View {
     @StateObject private var viewModel = ViewModel() // Initialize the view model
     
-//    @State private var selectedPage: Page? = pages.first // Start with the first page
-    @State private var selectedPage: Page? = pages[1] // Temporary, to start on another page so we don't have to navigate to the page at each reload
+    @State private var selectedPage: Page? = pages.first // Start with the first page
+//    @State private var selectedPage: Page? = pages[1] // Temporary, to start on another page so we don't have to navigate to the page at each reload
     @State private var isMenuOpen = false // Control the visibility of the menu
     
     var body: some View {
@@ -30,6 +30,12 @@ struct ContentView: View {
                 MenuList(selectedPage: $selectedPage, isMenuOpen: $isMenuOpen)
             } else { // If the user is connected, and everything is ok
                 Header(isMenuOpen: $isMenuOpen)
+                
+//                Button {
+//                    print(selectedPage)
+//                } label: {
+//                    Label("Print selected page", systemImage: "document.badge.plus")
+//                }
                 
                 // Show the currently selected page
                 if let page = selectedPage {

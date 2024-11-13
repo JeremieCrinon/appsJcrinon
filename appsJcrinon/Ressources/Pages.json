@@ -3,18 +3,21 @@
         "id": 1,
         "title": "Dashboard",
         "symbolName": "gauge.with.dots.needle.33percent",
-        "viewName": "Home"
+        "viewName": "Home",
+        "role": "ROLE_USER"
     },
     {
         "id": 2,
         "title": "Projects",
         "symbolName": "gear",
-        "viewName": "Projects"
+        "viewName": "Projects",
+        "role": "ROLE_PROJECTS"
     },
     {
         "id": 3,
         "title": "Users",
         "symbolName": "person",
-        "viewName": "Users"
+        "viewName": "Users",
+        "role": "ROLE_CONTROL_USERS"
     }
 ]

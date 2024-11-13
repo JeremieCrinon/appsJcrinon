@@ -13,7 +13,7 @@ extension ViewModel {
         
         guard let token = keychain.get("APIToken") else {
             DispatchQueue.main.async {
-                self.errorMessage = "There has been an error getting the token in the keychain."
+//                self.errorMessage = "There has been an error getting the token in the keychain."
                 self.disconnect()
             }
             return

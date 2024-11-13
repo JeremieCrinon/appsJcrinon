@@ -15,7 +15,7 @@ class ViewModel: ObservableObject {
     @Published var errorMessage: String? = nil
     @Published var clientErrorCode: Int? = nil
     
-    @Published var userRoles: Array<String>? = nil
+    @Published var userRoles: Array<String>? = ["ROLE_USER"]
     
     @Published var projects: Array<Project>? = nil
     

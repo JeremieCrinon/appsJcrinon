@@ -11,6 +11,7 @@ import SwiftUI
 struct Page: Codable, Identifiable {
     var id: Int
     var title: String
+    var role: String
     
     private var symbolName: String
     var symbol: Image {
