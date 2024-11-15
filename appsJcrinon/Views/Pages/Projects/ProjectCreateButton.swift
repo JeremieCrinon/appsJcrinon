@@ -14,7 +14,7 @@ struct ProjectCreateButton: View {
         HStack {
             Spacer()
             Button {
-                showingCreatePage.toggle()
+                showingCreatePage = true
             } label: {
                 Label("Create project", systemImage: "document.badge.plus")
             }

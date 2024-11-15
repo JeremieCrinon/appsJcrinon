@@ -17,6 +17,8 @@ struct Login: View {
     var body: some View {
         VStack {
             Text("Login")
+                .font(.title)
+                .bold()
             Spacer()
             Form {
                 Group {
@@ -38,7 +40,6 @@ struct Login: View {
                         }
                     }) {
                         Text("Log in")
-                            .foregroundStyle(Color("MainColor"))
                     }
                 }
             
