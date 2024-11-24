@@ -11,7 +11,7 @@ struct ContentView: View {
     @StateObject private var viewModel = ViewModel() // Initialize the view model
     
     @State private var selectedPage: Page? = pages.first // Start with the first page
-//    @State private var selectedPage: Page? = pages[1] // Temporary, to start on another page so we don't have to navigate to the page at each reload
+//    @State private var selectedPage: Page? = pages[2] // Temporary, to start on another page so we don't have to navigate to the page at each reload
     @State private var isMenuOpen = false // Control the visibility of the menu
     
     var body: some View {

@@ -59,10 +59,9 @@ extension ViewModel {
             await self.getProjects()
         }
         
-        
-        
-        
-        // /Now that we are connected, we get any data we will need later
+        if self.getUserRoles().contains("ROLE_USERS") || self.getUserRoles().contains("ROLE_ADMIN") {
+            await self.getUsers()
+        }
         
         DispatchQueue.main.async {
             self.isConnected = true

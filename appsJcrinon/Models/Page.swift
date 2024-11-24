@@ -27,6 +27,8 @@ struct Page: Codable, Identifiable {
             return AnyView(Home())
         case "Projects":
             return AnyView(Projects())
+        case "Users":
+            return AnyView(Users())
         default:
             return AnyView(ErrorPage()) // Default case for error handling
         }

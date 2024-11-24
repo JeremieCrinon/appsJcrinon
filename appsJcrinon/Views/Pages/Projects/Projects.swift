@@ -10,17 +10,21 @@ import SwiftUI
 struct Projects: View {
     @EnvironmentObject var viewModel: ViewModel
     
-    @State var showingCreatePage = false
+    @State var showingCreatePage: Bool = false
+    @State var showingEditPage: Bool = false
+    @State var idEditPage: Int? = nil
     
     var body: some View {
         if viewModel.projects != nil {
             VStack {
-                ProjectCreateButton(showingCreatePage: $showingCreatePage)
-                
-                ProjectList(projects: viewModel.projects!)
+                ProjectList(showingCreatePage: $showingCreatePage, idEditPage: $idEditPage, showingEditPage: $showingEditPage, projects: viewModel.projects!)
                     .sheet(isPresented: $showingCreatePage) {
                         ProjectCreate(showingCreatePage: $showingCreatePage)
                     }
+                    .sheet(isPresented: $showingEditPage) {
+                        ProjectEdit(showingEditPage: $showingEditPage, projectId: $idEditPage)
+                    }
+                    
             }
         } else {
             ErrorPage()

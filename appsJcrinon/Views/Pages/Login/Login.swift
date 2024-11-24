@@ -30,7 +30,11 @@ struct Login: View {
                 
                 Group {
                     TextField("Email", text: $email)
+                        .textInputAutocapitalization(.none)
+                        .autocorrectionDisabled(true)
                     SecureField("Password", text: $password)
+                        .textInputAutocapitalization(.none)
+                        .autocorrectionDisabled(true)
                 }
                 
                 Group {

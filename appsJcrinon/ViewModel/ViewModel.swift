@@ -18,6 +18,9 @@ class ViewModel: ObservableObject {
     @Published var userRoles: Array<String>? = ["ROLE_USER"]
     
     @Published var projects: Array<Project>? = nil
+    @Published var users: Array<User>? = nil
+    
+    @Published var possibleRoles: Array<String>? = nil
     
     let keychain = KeychainSwift()
     
