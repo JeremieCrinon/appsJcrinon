@@ -18,6 +18,8 @@ struct ContentView: View {
         VStack() {
             if viewModel.errorMessage != nil {
                 ErrorPage()
+            } else if !NetworkMonitor.shared.isConnected {
+                OfflinePage()
             } else if viewModel.isLoading {
                 LoadingPage()
             } else if !viewModel.isConnected {

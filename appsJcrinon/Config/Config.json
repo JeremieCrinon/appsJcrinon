@@ -1,5 +1,5 @@
 [
     {
-        "apiBaseUrl": "https://api.jcrinon.com"
+        "apiBaseUrl": "http://api.jcrinon.com.test"
     }
 ]
